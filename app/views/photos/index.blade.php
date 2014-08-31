@@ -1,7 +1,10 @@
 @extends('layouts.master')
 @section('content')
 <div class="navigationbar">
-	<a href="/">Collections</a>//{{ $collection->collection_name }}
+	<a href="/">
+		Collections
+	</a> //
+	{{ $collection->collection_name }}
 </div>
 @if($photos->count())
 	<ul class="pattern">

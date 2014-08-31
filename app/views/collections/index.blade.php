@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 <div class="navigationbar">
-	Collections//
+	Collections //
 </div>
 @if($collections->count())
 	<ul class="pattern">
